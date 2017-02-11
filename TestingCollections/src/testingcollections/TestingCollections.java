@@ -5,7 +5,7 @@
 package testingcollections;
 import java.util.ArrayList;
 /**@author josecovarrubias*/
-public class TestingCollections {
+public class TestingCollections {    
     /**
      * @param args the command line arguments
      */
