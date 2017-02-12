@@ -26,6 +26,7 @@ public class TestingCollections {
         for(int i:regArray){
         System.out.println(i);
     }
+        //TESTING MY REPOSITORY
        // this is just to separate the arrays 
        System.out.println("================================================"
                          +"\nNow Java collections which are similar to arrays");
