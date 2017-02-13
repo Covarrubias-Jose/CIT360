@@ -59,8 +59,8 @@ public class TestingCollections {
         colSet.add("bike");
         colSet.add(3.5);
         System.out.println();
-        System.out.print(colSet);
-        System.out.print("\t #of index "+colSet.size()+"\n");
+        System.out.println(colSet);
+        System.out.print("#of index "+colSet.size()+"\n");
         System.out.println();
         System.out.println("**Displaying same colSet array with ITERATOR**");
         Iterator colIterator = colSet.iterator();
