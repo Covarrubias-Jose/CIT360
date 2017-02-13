@@ -4,17 +4,20 @@
  */
 package testingcollections;
 import java.util.ArrayList;
+import java.util.List;
 /**@author josecovarrubias*/
 public class TestingCollections {    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("**This displays a regular array in Java**");
         //let's create an commun array in Java name regArray
         int[] regArray;
         //we need to give the array the number of elements/items it will have
         regArray = new int[4];      
-        //let's give each index a value
+        //let's give each index a value, the [] brakets represent
+        //the index possition in the array.
         regArray[0]=101;
         regArray[1]=102;
         regArray[2]=103;
@@ -24,23 +27,29 @@ public class TestingCollections {
         and also add the new value to the actual array, or add a new method and
         receive new input from the user to be added to the array*/ 
         for(int i:regArray){
-        System.out.println(i);
+        System.out.print(i);
+        System.out.println();
+        
+       
     }
-        //TESTING MY REPOSITORY
        // this is just to separate the arrays 
        System.out.println("================================================"
-                         +"\nNow Java collections which are similar to arrays");
+                         +"\nNow Java collections which are similar to arrays"
+                         +"\n================================================");
         
-        ArrayList<String> stuff = new ArrayList<>();
-        
+       /*Different from regular arrays, collections can be a lot more simple.
+         
+       */
+        List stuff = new ArrayList();
+        //data stored in the List collection.
         stuff.add("car1");
         stuff.add("car2");
         stuff.add("car3");
         stuff.add("car4");
+        //this displays the list.
+        System.out.println("**Display Stuff list**");
+        System.out.println(stuff);
         
-        for(String S : stuff){
-            System.out.printf(S,  "\n", args);
-        }
         
     }
     
