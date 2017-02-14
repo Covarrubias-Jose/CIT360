@@ -104,7 +104,7 @@ public class TestingCollections {
         Map collections can function well creating list/arrays 
         that can be used in phone directories or other data lists that 
         need 2 sets of information.*/
-        System.out.print("** NOW USING THE MAP **");
+        System.out.println("\n** NOW USING THE MAP **");
         Map raceCarNum = new HashMap();
             raceCarNum.put("blue","1");
             raceCarNum.put("red","5");
