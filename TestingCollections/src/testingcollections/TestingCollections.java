@@ -28,7 +28,7 @@ public class TestingCollections {
         regArray[0]=101;
         regArray[1]=102;
         regArray[2]=103;
-        regArray[3]=104;   
+        regArray[3]=104;
 //        System.out.println(regArray);
         /*This will print everything on the array. If I want to add more stuff
         to this array I will have to modify the array's index number on line 18
