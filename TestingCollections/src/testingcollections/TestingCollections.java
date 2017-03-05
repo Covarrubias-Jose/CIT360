@@ -15,10 +15,10 @@ import java.util.TreeSet;
 /**@author josecovarrubias*/
 public class TestingCollections {    
     /**
-     * @param args the command line arguments
+     * @param args the command line arguments 
      */
     public static void main(String[] args) {
-        System.out.println("** This displays a regular array in Java **");
+        System.out.println("**///////// A regular array in Java ///////////**");
         //let's create an commun array in Java name regArray
         int[] regArray;
         //we need to give the array the number of elements/items it will have
@@ -39,7 +39,7 @@ public class TestingCollections {
         System.out.println();}
 ////////////////////////////////////////////////////////////////////////////////
         /*              COLLECTION LIST         */
-       System.out.print("\n** Collections LIST **");       
+       System.out.print("\n**///////// Collections LIST ///////////////////**");       
        /*Different from regular arrays, collections can be a lot more simple
          and complex at the same time. For example a List can hava duplicates
          of the data in it as long is the same type of data. 
@@ -65,7 +65,7 @@ public class TestingCollections {
         but they cannot repeat. This could be helpful whe working with arrays
         that require that data is enter only once. 
         */
-        System.out.print("\n** Collection SET **"); 
+        System.out.print("\n**//////////// Collection SET /////////////////**"); 
         Set colSet = new HashSet();
         colSet.add(2);
         colSet.add("bike");
@@ -75,7 +75,7 @@ public class TestingCollections {
         System.out.println(colSet);
         System.out.println("#of index "+colSet.size());
         System.out.println();
-        System.out.println("== Displaying same colSet array with ITERATOR ==");
+        System.out.println("/////// same colSet array with ITERATOR /////////");
         Iterator colIterator = colSet.iterator();
         while(colIterator.hasNext()){
                 Object data = colIterator.next();
@@ -92,7 +92,7 @@ public class TestingCollections {
         /*             COLLECTION TREESET
         The TREESET is a collction that can sort the array for you. data has
         to be of the same type. Duplicates will not show. */
-        System.out.println("\n** NOW USING THE TREESET **");
+        System.out.println("\n**////////// NOW USING THE TREESET //////////**");
         TreeSet sortItForMe = new TreeSet();
             sortItForMe.add(305);
             sortItForMe.add(303);
